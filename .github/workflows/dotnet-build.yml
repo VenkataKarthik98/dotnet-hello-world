@@ -35,4 +35,4 @@ jobs:
         NEXUS_USERNAME: ${{ secrets.NEXUS_USERNAME }}
         NEXUS_PASSWORD: ${{ secrets.NEXUS_PASSWORD }}
       run: |
-        curl -u $NEXUS_USERNAME:$NEXUS_PASSWORD --upload-file ./output/myapp.zip http://your-nexus-server/repository/your-repo/myapp.zip
+        curl -u $NEXUS_USERNAME:$NEXUS_PASSWORD --upload-file ./output/myapp.zip http://localhost:8081/repository/dotnet-nexus/myapp.zip
