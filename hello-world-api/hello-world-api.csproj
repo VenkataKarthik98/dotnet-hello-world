@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <RestoreSources>
-      https://your-nexus-server/repository/your-repo/
+      http://localhost:8081/repository/dotnet6-build/index.json
     </RestoreSources>
   </PropertyGroup>
 
